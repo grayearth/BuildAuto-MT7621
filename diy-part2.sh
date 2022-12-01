@@ -23,7 +23,7 @@ sed -i 's/luci-theme-bootstrap/luci-theme-argon-18.06/g' feeds/luci/collections/
 sed -i 's/luci-theme-bootstrap/luci-theme-argon-18.06/g' feeds/luci/collections/luci-nginx/Makefile
 
 # 加入作者信息
-sed -i "s/DISTRIB_DESCRIPTION='*.*'/DISTRIB_DESCRIPTION='SpringWRT-$(date +%Y%m%d)'/g" package/lean/default-settings/files/zzz-default-settings
+sed -i "s/DISTRIB_DESCRIPTION='*.*'/DISTRIB_DESCRIPTION='SpringWRT-mt7621-$(date +%Y%m%d)'/g" package/lean/default-settings/files/zzz-default-settings
 
 # 更改主机名
 sed -i "s/hostname='.*'/hostname='SpringWRT'/g" package/base-files/files/bin/config_generate
