@@ -191,7 +191,7 @@ jobs:
 
     - name: Notification
       if: cancelled() == false
-      uses: cachenow/action-telegram@v1.1
+      uses: grayearth/action-telegram@v1.1
       with:
         botToken: ${{ secrets.BotToken }}
         chatId: ${{ secrets.ChatID }}
